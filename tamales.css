@@ -1,0 +1,133 @@
+header {
+    background-color: plum;
+    color: white;
+    background-image: url(photos/utah2.jfif);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+nav {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lavender;
+    min-width: 960px;
+    max-width: 2078px;
+    box-shadow: 3px 0px 3px purple;
+    border: 1px #000033;
+    background-image: linear-gradient(to bottom, lavenderblush, plum);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding-left: 0%;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #eb2d5c;
+}
+
+nav a:visited {
+    color: purple;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+body {
+    border: 1px;
+    background-color: lavender;
+}
+
+footer {
+    font-style: italic;
+    font-size: 75%;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 500px;
+    margin-top: 135px;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    color: brown;
+    margin-left: auto;
+    margin-right: 800px;
+    padding: 1px 20px 20px 30px;
+    display: block;
+    overflow: auto;
+}
+
+#special {
+    margin-left: 750px;
+    margin-right: auto;
+    text-align: center;
+    clear:both;
+    
+}
+
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 3px #000000;
+    border-collapse: collapse;
+    color: brown;
+}
+
+td, th {
+    padding: 0.5em;
+    border: solid 2px #000033;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background-color: rgb(255, 247, 236);
+}
+
+form {
+    background-color: rgb(255, 247, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
